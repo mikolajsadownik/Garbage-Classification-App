@@ -10,7 +10,7 @@ import io
 # Load pre-trained model
 @st.cache_resource
 def load_model_from_file():
-    model = load_model("Garbage-Classification-App\model.h5")  # Update the path if necessary
+    model = load_model("model.h5") 
     return model
 
 model = load_model_from_file()
