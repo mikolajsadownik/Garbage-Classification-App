@@ -1,6 +1,6 @@
 # Garbage-Classification-App
 This is a web-based app that classifies images of garbage into six categories: **cardboard**, **glass**, **metal**, **paper**, **plastic**, and **trash**. The app uses a pre-trained neural network model and provides an easy-to-use interface for uploading and analyzing images.
-
+ 
 ## Features
 
 - **Upload an image** via drag-and-drop or file browsing.
