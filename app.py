@@ -10,10 +10,11 @@ import io
 # Load pre-trained model
 @st.cache_resource
 def load_model_from_file():
-    model = load_model("model.h5") 
+    model = load_model("model.keras") 
     return model
 
 model = load_model_from_file()
+img_size = model.input_shape[1:3]
 
 # Define class mapping
 class_labels = {
@@ -44,7 +45,7 @@ if page == "Home":
 
         # Preprocess the Image
         def preprocess_image(img):
-            img = img.resize((32, 32))  # Resize to 32x32 pixels
+            img = img.resize(img_size)  # Resize to model input size
             img_array = img_to_array(img, dtype=np.uint8)  # Convert to array
             img_array = np.array(img_array) / 255.0  # Normalize
             img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
