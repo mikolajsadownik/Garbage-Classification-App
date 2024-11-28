@@ -47,7 +47,6 @@ if page == "Home":
         def preprocess_image(img):
             img = img.resize(img_size)  # Resize to model input size
             img_array = img_to_array(img, dtype=np.uint8)  # Convert to array
-            img_array = np.array(img_array) / 255.0  # Normalize
             img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
             return img_array
 
