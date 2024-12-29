@@ -89,5 +89,6 @@ This is a web-based app that classifies images of garbage into six categories: *
 - **Accuracy 90.63%**
 - **Confusion Matrix**
 
-![image](https://github.com/link-to-image-here)
+![image](https://github.com/user-attachments/assets/b0a8b6b2-2d50-4957-9c17-269e54d55902)
+
 
