@@ -39,8 +39,6 @@ This is a web-based app that classifies images of garbage into six categories: *
 ### Dataset Preparation
 
 1. **Dataset Splitting**:
-   - Data is sourced from the `data` directory.
-   - Labels are inferred from folder names (`label_mode='categorical'`).
    - Images are resized to `(224, 224)`.
    - Data is split into training (70%) and validation (30%) sets using `validation_split=0.3`.
    - A consistent split is ensured with a fixed random seed (`SEED=2137`).
