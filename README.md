@@ -22,7 +22,7 @@ This is a web-based app that classifies images of garbage into six categories: *
      - Excludes the top classification layer (`include_top=False`).
      - Input shape: `(224, 224, 3)` for RGB images.
      - The base model parameters are frozen (`trainable=False`) to preserve pre-trained features.
-     - GitHub - PizaaRiaaa/garbage-classification: Python notebook about garbage detection based on convolutional neural network
+     - [GitHub - PizaaRiaaa/garbage-classification: Python notebook about garbage detection based on convolutional neural network](https://github.com/PizaaRiaaa/garbage-classification)
      
      **Description**: EfficientNet is a family of models designed to achieve state-of-the-art performance while minimizing computational resources. These models balance depth, width, and resolution scaling to maximize computational efficiency.
 
